@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu-22.04" type="wsl" uuid="ea6f64de-fd58-4d60-a7de-7deb9e06863b">
+        <config>
+          <option name="distributionMsId" value="Ubuntu-22.04" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/mnt/c/Users/Eric.Stenseth/AppData/Local/Programs/RustRover/jbr/bin&#10;, stderr=}/ims-cli" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config>
+            <option name="cargoPath" value="/home/ers/.cargo/bin/cargo" />
+            <option name="cargoVersion" value="1.74.0 (ecb9851af 2023-10-18)" />
+            <option name="rustcPath" value="/home/ers/.cargo/bin/rustc" />
+            <option name="rustcVersion" value="1.74.0 (79e9716c9 2023-11-13)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
