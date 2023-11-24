@@ -2,8 +2,24 @@
 name = "ims-cli"
 version = "0.1.0"
 edition = "2021"
+authors = ["Eric Stenseth <eric.stenseth@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/HummingPain/ims-cli"
+repository = "https://github.com/HummingPain/ims-cli"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 clap = { version = "4.4.8", features = ["derive"] }
+anyhow = { version = "1.0.75", features = [] }
+indicatif = { version = "0.17.7", features = [] }
+log = { version = "0.4.20", features = [] }
+
+[dev-dependencies]
+assert_cmd = "2.0.12"
+predicates = "3.0.4"
+assert_fs = "1.0.13"
